@@ -1,0 +1,74 @@
+:root{
+  --primary: #00b09b;
+  --secondary:#96c93d;
+  --secondary-100: #d1f592;
+  --secondary-200: #9ec45b;
+  --font-primary: #fff;
+  --font-secondary: #e3e3e3;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+}
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: linear-gradient(to right,var(--primary),var(--secondary));
+}
+main{
+  min-height: calc(100vh - 189px);
+}
+.header {
+  padding: 20px;
+  background-color: transparent;
+  color: var(--font-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+header h1 {
+  font-size: 48px;
+}
+.styled-text {
+  color: var(--font-primary);
+}
+.styled-text span{
+  color: var(--secondary-100);
+  font-size: 55px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  color: var(--font-primary) ;
+    
+}
+.header nav{
+  display: flex;
+}
+.header nav a div{
+  height: 5px;
+  width: 0%;
+  background: var(--font-primary);
+  margin-top: 8px;
+  opacity: 0;
+  transition: all 200ms linear;
+}
+.header nav a:hover div{
+  opacity: 1;
+  width: 100%;
+}
+
+
+footer {
+  padding: 30px;
+  text-align: center;
+  background-color: transparent;
+  color: var(--font-primary);
+  
+  
+}
