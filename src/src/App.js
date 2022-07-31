@@ -2,6 +2,7 @@
 import React from "react";
 import './App.css';
 import './home.css';
+import './about-me.css';
 import Home from "./component/Home";
 import About from "./component/About";
 import Portfolio from "./component/Portfolio";

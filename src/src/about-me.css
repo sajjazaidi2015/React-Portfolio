@@ -1,0 +1,29 @@
+main{
+    display: flex;
+    flex-direction: column;
+    color: var(--font-primary);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about-me section {
+    margin-bottom: 50px;
+}
+
+.about-me section h1, .about-me section h2{
+    margin-bottom: 5px;
+    font-size: 30px;
+    
+}
+.about-me section .styled-text span{
+    font-size: 40px;
+}
+.about-me section p, .about-me section ul {
+    line-height: 1.5;
+    color: var(--font-secondary);
+}
+.about-me section ul{
+    display: flex;
+    justify-content: space-between;
+
+}
