@@ -1,0 +1,32 @@
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    main{
+        width: 85%;
+    }
+    .portfolio section {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .portfolio section .code-repositories {
+        width: 100%;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #9ec45b;
+    }
+    .portfolio section .code-repositories h2{
+        font-size: 17px;
+    }
+    .portfolio section .code-repositories p{
+        font-size: 13px;
+    }
+    .portfolio section .code-repositories .links a{
+        font-size: 16px;
+    }
+    .portfolio section .code-repositories .icon{
+        width: 22px;
+    }
+}

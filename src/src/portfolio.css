@@ -1,0 +1,72 @@
+main{
+    display: flex;
+    flex-direction: column;
+    color: var(--font-primary);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.portfolio div h1, .portfolio div h2{
+    margin-bottom: 5px;
+    font-size: 30px;
+    
+}
+.portfolio div .styled-text span{
+    font-size: 40px;
+}
+.portfolio section {
+    display: flex;
+    margin-top: 20px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.portfolio section .code-repositories {
+    width: 240px;
+    border-bottom: 1px solid var(--secondary-200);
+    margin-bottom: 20px;
+}
+
+.portfolio section .code-repositories h2 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.portfolio section .code-repositories img {
+    width: 100%;
+}
+
+.portfolio section .code-repositories p {
+    color: var(--font-secondary);
+}
+
+.portfolio section .code-repositories .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio section .code-repositories .links a {
+    padding: 10px 0;
+    align-self: center;
+    line-height: 2;
+}
+
+.portfolio section .code-repositories .icon {
+    width: 30px;
+    opacity: 0.5;
+    transition: all 200ms linear;
+}
+.portfolio section .code-repositories .icon:hover {
+    opacity: 1;
+}
+.links a div{
+    height: 2px;
+    width: 0%;
+    background: var(--font-primary);
+    opacity: 0;
+    transition: all 200ms linear;
+}
+.links a:hover div{
+    opacity: 1;
+    width: 100%;
+}

@@ -2,8 +2,13 @@
 import React from "react";
 import './App.css';
 import './home.css';
+import './global.mobile.css';
 import './about-me.css';
+import './aboutme.mobile.css';
 import './contact-me.css';
+import './contact-me.mobile.css';
+import './portfolio.css';
+import './portfolio.mobile.css';
 import Home from "./component/Home";
 import About from "./component/About";
 import Portfolio from "./component/Portfolio";
