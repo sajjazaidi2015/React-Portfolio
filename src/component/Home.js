@@ -7,7 +7,7 @@ function Home() {
       <main>
       <figure>
         <img
-          src="./assets/images/WhatsApp Image 2022-03-18 at 3.34.03 PM.jpeg"
+          src="./assets/images/WhatsApp Image 2022-03-18 at 3.34.03 PM copy.jpeg"
           alt="sajjad zaidi"
           class="avator"
         />
