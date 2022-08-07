@@ -3,9 +3,9 @@ import React from "react";
 function About() {
 
   return (
-    <main class="about-me">
+    <main className="about-me">
       <section>
-        <h1 class="styled-text">
+        <h1 className="styled-text">
           <span>A</span>bout Me
         </h1>
         <p>
@@ -19,7 +19,7 @@ function About() {
         </p>
       </section>
       <section>
-        <h2 class="styled-text">
+        <h2 className="styled-text">
           <span>S</span>kill
         </h2>
         <ul>
@@ -38,7 +38,7 @@ function About() {
         </ul>
       </section>
       <section>
-        <h2 class="styled-text">
+        <h2 className="styled-text">
           <span>E</span>ducation
         </h2>
         <ul>

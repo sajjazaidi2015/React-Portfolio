@@ -11,31 +11,31 @@ function Home() {
         <img
           src={myImage}
           alt="sajjad zaidi"
-          class="avator"
+          className="avator"
         />
         <figcaption>
-          <h1 class="styled-text"><span>S</span>ajjad <span>Z</span>aidi</h1>
+          <h1 className="styled-text"><span>S</span>ajjad <span>Z</span>aidi</h1>
         </figcaption>
         <section>
           <a href="https://www.linkedin.com/in/sajjad-zaidi-829a451aa/"
-            ><img class="icon"
+            ><img className="icon"
               src={linkedIn}
               alt="Linkedn icon" />
             </a>
           <a href="./assets/images/Sajjad_Zaidi_Resume_06-07-2022-11-50-49.pdf"
-            ><img class="icon"
+            ><img className="icon"
               src={resume}
               alt="Resume icon" />
             </a>
           <a href="tel:267-890-4118"
             title="267-890-4118"
-            ><img class="icon"
+            ><img className="icon"
               src={phone}
               alt="Phone icon" />
             </a>
           <a href="mailto:sajjadzaidi2015@gmail.com"
             title="sajjadzaidi2015@gmail.com"
-            ><img class="icon"
+            ><img className="icon"
               src={email}
               alt="Email icon" />
             </a>
