@@ -1,16 +1,22 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.7ae15dfa.css",
-    "main.js": "/React-Portfolio/static/js/main.98ad5bad.js",
+    "main.js": "/React-Portfolio/static/js/main.a2287471.js",
     "static/js/787.b98c23e5.chunk.js": "/React-Portfolio/static/js/787.b98c23e5.chunk.js",
+    "static/media/code-refactoring.png": "/React-Portfolio/static/media/code-refactoring.902411cc307707a47994.png",
+    "static/media/app_movie1.png": "/React-Portfolio/static/media/app_movie1.6252e0c4866a7b96660a.png",
+    "static/media/Web capture_6-7-2022_12047_codeop2.herokuapp.com.jpeg": "/React-Portfolio/static/media/Web capture_6-7-2022_12047_codeop2.herokuapp.com.928d2ed60a3f92fcbdef.jpeg",
+    "static/media/Weather-Dashboard.jpeg": "/React-Portfolio/static/media/Weather-Dashboard.21f03f35a78e059699b9.jpeg",
+    "static/media/Quiz Page.jpeg": "/React-Portfolio/static/media/Quiz Page.0329be21bd8939999c69.jpeg",
     "static/media/WhatsApp Image 2022-03-18 at 3.34.03 PM.jpeg": "/React-Portfolio/static/media/WhatsApp Image 2022-03-18 at 3.34.03 PM.8e4318d76888b5482609.jpeg",
+    "static/media/github.svg": "/React-Portfolio/static/media/github.04be58c17b3d5e9744424d414240dd85.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.7ae15dfa.css.map": "/React-Portfolio/static/css/main.7ae15dfa.css.map",
-    "main.98ad5bad.js.map": "/React-Portfolio/static/js/main.98ad5bad.js.map",
+    "main.a2287471.js.map": "/React-Portfolio/static/js/main.a2287471.js.map",
     "787.b98c23e5.chunk.js.map": "/React-Portfolio/static/js/787.b98c23e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ae15dfa.css",
-    "static/js/main.98ad5bad.js"
+    "static/js/main.a2287471.js"
   ]
 }
